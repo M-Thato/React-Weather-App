@@ -19,3 +19,11 @@ SKYY Weather presents weather conditions using beautiful icons and animations, m
 
 ### Hourly and Daily Forecasts: 
 Plan your day effectively with hourly forecasts for the upcoming 24 hours and daily forecasts for the next few days. Be prepared for any weather changes that may come your way.
+
+***
+## To Run The App After Downloading The Files
+
+In the terminal:
+
+1. npm install
+2. npm start
