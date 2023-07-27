@@ -1,29 +1,49 @@
-# SKYY Weather
+# Getting Started with Create React App
 
-SKYY Weather is a sleek and user-friendly React-based weather application that puts the power of real-time weather information right at your fingertips. With its intuitive design and seamless user experience, SKYY Weather allows you to stay updated on the latest weather conditions in any location worldwide.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Key Features:
-Accurate Weather Data: SKYY Weather fetches the most up-to-date weather data from reliable sources using a weather API, providing you with accurate forecasts for today, the next few days, and even an extended outlook.
+## Available Scripts
 
-### Location-Based Forecasting: 
-The app uses geolocation to detect your current location automatically, so you can access local weather information effortlessly. Alternatively, you can manually search for any city or place to get specific weather details.
+In the project directory, you can run:
 
-### Interactive UI: 
-The clean and responsive user interface of SKYY Weather makes navigation a breeze. Whether you're a tech-savvy user or someone new to weather apps, the design ensures a seamless experience for everyone.
+### `npm start`
 
-### Detailed Weather Information: 
-Get comprehensive weather details such as temperature, humidity, wind speed, precipitation, and more in an easy-to-read format.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Visual Representation: 
-SKYY Weather presents weather conditions using beautiful icons and animations, making it visually engaging and enjoyable to use.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Hourly and Daily Forecasts: 
-Plan your day effectively with hourly forecasts for the upcoming 24 hours and daily forecasts for the next few days. Be prepared for any weather changes that may come your way.
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
 ***
-## To Run The App After Downloading The Files
 
-In the terminal:
+# Project Runtime
+A user enters the zip code of the desired city. An api call is made to search for the provided zip code. 
 
-1. npm install
-2. npm start
+If the zip code is found, the app will display a city component will all cities that match the zip code. 
+
+If the zip code is not found, a relevant error message will popup. 
+
+On clicking the desired city, another api call will be made to retieve the weather data. 
+
+If the city is found, detailed weather information will be displayed to the user.
+
+If the selected city is not found, a relevant error message will popup and the user will be able to choose a different city if desired.
